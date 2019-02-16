@@ -59,7 +59,11 @@ func App() *buffalo.App {
 		app.Use(translations())
 
 		app.GET("/", HomeHandler)
+		app.GET("/", ChartHandler)
 
+		app.Resource("/cidades", CidadesResource{})
+
+		app.Resource("/pessoas", PessoasResource{})
 		app.ServeFiles("/", assetsBox) // serve files from the public directory
 	}
 

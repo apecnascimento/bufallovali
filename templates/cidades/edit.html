@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>Edit Cidade</h1>
+</div>
+
+<%= form_for(cidade, {action: cidadePath({ cidade_id: cidade.ID }), method: "PUT"}) { %>
+  <%= partial("cidades/form.html") %>
+  <a href="<%= cidadePath({ cidade_id: cidade.ID }) %>" class="btn btn-warning" data-confirm="Are you sure?">Cancel</a>
+<% } %>

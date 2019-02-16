@@ -1,0 +1,6 @@
+- id: "pessoa.created.success"
+  translation: "Pessoa was successfully created."
+- id: "pessoa.updated.success"
+  translation: "Pessoa was successfully updated."
+- id: "pessoa.destroyed.success"
+  translation: "Pessoa was successfully destroyed."

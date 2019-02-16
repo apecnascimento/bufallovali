@@ -1,0 +1,6 @@
+create_table("cidades") {
+	t.Column("id", "uuid", {primary: true})
+	t.Column("nome", "string", {})
+	t.Column("estado", "string", {})
+	t.Column("cep", "string", {})
+}

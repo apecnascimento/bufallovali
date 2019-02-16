@@ -1,0 +1,19 @@
+<div class="page-header">
+  <h1>Cidade#Show</h1>
+</div>
+
+<ul class="list-unstyled list-inline">
+  <li class="list-inline-item"><a href="<%= cidadesPath() %>" class="btn btn-info">Back to all Cidades</a></li>
+  <li class="list-inline-item"><a href="<%= editCidadePath({ cidade_id: cidade.ID })%>" class="btn btn-warning">Edit</a></li>
+  <li class="list-inline-item"><a href="<%= cidadePath({ cidade_id: cidade.ID })%>" data-method="DELETE" data-confirm="Are you sure?" class="btn btn-danger">Destroy</a>
+</ul>
+
+<p>
+  <strong>Nome</strong>: <%= cidade.Nome %>
+</p>
+<p>
+  <strong>Estado</strong>: <%= cidade.Estado %>
+</p>
+<p>
+  <strong>Cep</strong>: <%= cidade.Cep %>
+</p>

@@ -1,0 +1,6 @@
+- id: "cidade.created.success"
+  translation: "Cidade was successfully created."
+- id: "cidade.updated.success"
+  translation: "Cidade was successfully updated."
+- id: "cidade.destroyed.success"
+  translation: "Cidade was successfully destroyed."
